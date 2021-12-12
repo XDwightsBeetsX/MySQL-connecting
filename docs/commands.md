@@ -5,7 +5,7 @@
 - ended with semi-colons
 
 | Command | Output |
-| :-- | :-: |
+| :-- | :-- |
 | `mysql> SHOW DATABASES;` | ![showDBs](../imgs/cmd-show_databases.png) |
 | `mysql> CREATE DATABASE <dbname>;` | ![createDB](./../imgs/cmd-create_database.png) |
 | `mysql> USE <dbname>;` | ![useDB](../imgs/cmd-use_database.png) |
