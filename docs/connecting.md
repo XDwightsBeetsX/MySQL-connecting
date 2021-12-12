@@ -2,10 +2,10 @@
 
 ## Python
 
-To connect with python, first install the [TODO]() package
+To connect with python, first install the [*mysql-connector-python*](https://github.com/mysql/mysql-connector-python) package
 
 ```shell
-pip install TODO
+pip install mysql-connector-python
 ```
 
 Copy the code, entering your system/server information...
