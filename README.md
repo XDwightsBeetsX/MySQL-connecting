@@ -68,6 +68,8 @@ For more help on non-Windows installs, see [this](https://dev.mysql.com/doc/mysq
 
 See these pagecs on [creating a new connection](https://dev.mysql.com/doc/workbench/en/wb-mysql-connections-new.html) and [verifying the connection](https://www.mysqltutorial.org/getting-started-with-mysql/connect-to-mysql-server/)
 
+I have included a test_conection.py script to test the connection using the mysql-server-python API.
+
 ## Basic SQL Commands
 
 SQL stands for *Structured Query Language*, and defines the syntax for querying databases to retrieve data, and write entries.
