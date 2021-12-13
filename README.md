@@ -57,7 +57,7 @@ mysql> -u root -p
 After initial login, the password can be changed with the command:
 
 ```shell
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
 ```
 
 Permissions and Users can be changed by opening the MySQL Workbench and editing the *Server > Users and Privileges*
@@ -68,7 +68,7 @@ For more help on non-Windows installs, see [this](https://dev.mysql.com/doc/mysq
 
 See these pagecs on [creating a new connection](https://dev.mysql.com/doc/workbench/en/wb-mysql-connections-new.html) and [verifying the connection](https://www.mysqltutorial.org/getting-started-with-mysql/connect-to-mysql-server/)
 
-I have included a test_conection.py script to test the connection using the mysql-server-python API.
+I have included a [test_conection.py](docs/connecting.md) script to test the connection using the mysql-server-python API.
 
 ## Basic SQL Commands
 
