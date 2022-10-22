@@ -1,0 +1,5 @@
+SELECT * 
+FROM world.city
+WHERE 500000 <= Population
+ORDER BY ID
+LIMIT 20;
